@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/cned/!svn/ver/300/trunk/test/spec/backend/files
+END
+exercice.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cned/!svn/ver/300/trunk/test/spec/backend/files/exercice.jpg
+END
+grammaire.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cned/!svn/ver/300/trunk/test/spec/backend/files/grammaire.pdf
+END
+cours.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cned/!svn/ver/298/trunk/test/spec/backend/files/cours.png
+END
+image_a_oceriser.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cned/!svn/ver/300/trunk/test/spec/backend/files/image_a_oceriser.png
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/cned/!svn/ver/349/trunk
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/cned/!svn/ver/46/trunk/.gitignore
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/cned/!svn/ver/46/trunk/.travis.yml
+END
+bower.json
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/cned/!svn/ver/81/trunk/bower.json
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/cned/!svn/ver/46/trunk/.gitattributes
+END
+.editorconfig
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cned/!svn/ver/46/trunk/.editorconfig
+END
+karma.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/cned/!svn/ver/319/trunk/karma.conf.js
+END
+Gruntfile.js
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cned/!svn/ver/222/trunk/Gruntfile.js
+END
+test-reports.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/cned/!svn/ver/265/trunk/test-reports.xml
+END
+app.js
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/cned/!svn/ver/205/trunk/app.js
+END
+.bowerrc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/cned/!svn/ver/46/trunk/.bowerrc
+END
+.jshintrc
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/cned/!svn/ver/197/trunk/.jshintrc
+END
+package.json
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cned/!svn/ver/264/trunk/package.json
+END
+karma-e2e.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/cned/!svn/ver/46/trunk/karma-e2e.conf.js
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/cned/!svn/ver/46/trunk/.project
+END

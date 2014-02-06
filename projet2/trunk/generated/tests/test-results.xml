@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Firefox 26.0.0 (Ubuntu)" package="" timestamp="2014-02-06T14:39:17" id="0" hostname="Maslouhy" tests="71" errors="0" failures="0" time="0.673">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:26.0) Gecko/20100101 Firefox/26.0"/>
+    </properties>
+    <testcase name="TagCtrl:init should set init function" time="0.016" classname="Firefox 26.0.0 (Ubuntu).Controller:ApercuCtrl"/>
+    <testcase name="ApercuCtrl:init should call /chercherTagsParProfil and /getDocument on scope.init()" time="0.008" classname="Firefox 26.0.0 (Ubuntu).Controller:ApercuCtrl"/>
+    <testcase name="ApercuCtrl:init should profilTags be scope.profiltags" time="0.008" classname="Firefox 26.0.0 (Ubuntu).Controller:ApercuCtrl"/>
+    <testcase name="ApercuCtrl:init should scope.blocks be document on scope.init()" time="0.013" classname="Firefox 26.0.0 (Ubuntu).Controller:ApercuCtrl"/>
+    <testcase name="ApercuCtrl:playSong should set playSong function" time="0.011" classname="Firefox 26.0.0 (Ubuntu).Controller:ApercuCtrl"/>
+    <testcase name="ApercuCtrl : setActive test" time="0.005" classname="Firefox 26.0.0 (Ubuntu).Controller:ApercuCtrl"/>
+    <testcase name="ApercuCtrl: Impression document" time="0.035" classname="Firefox 26.0.0 (Ubuntu).Controller:ApercuCtrl"/>
+    <testcase name="CommonCtrl : Detecter actuel route" time="0.012" classname="Firefox 26.0.0 (Ubuntu).Controller: CommonCtrl"/>
+    <testcase name="ImagesCtrl: oceriser le texte d&apos;une image" time="0.011" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: initialisation des variable pour l&apos;espace de travail" time="0.007" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: selection d&apos;une zone" time="0.011" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: supression d&apos;une zone" time="0.008" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: test de l&apos;upload de Fichiers" time="0.01" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: Selection de la liste des tags" time="0.007" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: découpage des images" time="0.013" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: initialiser la source aprés upload" time="0.006" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: enlever un block de l&apos;espace de travail" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: Appeler mdification du texte" time="0.006" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: Avoir le texte du WYSIWYG" time="0.007" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: Generation de la synthese vocale" time="0.005" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: Activation de l&apos;enregistrement des blocks" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: Ajout des blocks structurés" time="0.006" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: Redirection automatique vers l&apos;aperçu" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: Modification du type du document" time="0.007" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="ImagesCtrl: Afficher le bouton prévisualisation synthese vocale" time="0.01" classname="Firefox 26.0.0 (Ubuntu).Controller:ImagesCtrl"/>
+    <testcase name="should attach a list of awesomeThings to the scope" time="0.005" classname="Firefox 26.0.0 (Ubuntu).Controller: MainCtrl"/>
+    <testcase name="ProfilesCtrl:Arrays should be defined" time="0.196" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:afficherProfilsClear should set afficherProfilsClear " time="0.007" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:afficherProfilsClear should call /listerProfil on $scope.afficherProfilsClear()" time="0.01" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:afficherProfilsClear should listeProfils be profils" time="0.014" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:isTagStylesNotEmpty should set isTagStylesNotEmpty " time="0.005" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:afficherProfils should set afficherProfils " time="0.003" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:afficherProfils should call /listerProfil on $scope.afficherProfils()" time="0.003" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:afficherProfils should listeProfils be profils" time="0.005" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:ajouterProfil should set ajouterProfil " time="0.008" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:ajouterProfil should set photo property" time="0.006" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:ajouterProfil should call /ajouterProfils on $scope.ajouterProfil()" time="0.009" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:ajouterProfil should profil be $scope.profilFlag" time="0.007" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:supprimerProfil should set supprimerProfil " time="0.007" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:supprimerProfil should call /deleteProfil on $scope.supprimerProfil()" time="0.008" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:supprimerProfil should profil be $scope.profilFlag" time="0.009" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:preModifierProfil should set preModifierProfil " time="0.005" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:modifierProfil should set modifierProfil " time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:afficherTags should set afficherTags " time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:afficherTags should call /readTags on $scope.afficherTags()" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:afficherTags should listTags be tags" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:ajouterProfilTag should set ajouterProfilTag " time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:affectDisabled should set affectDisabled " time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:validerStyleTag should set validerStyleTag " time="0.003" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:editionAddProfilTag should set editionAddProfilTag " time="0.01" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:editerStyleTag should set editerStyleTag " time="0.005" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:editerStyleTag should set editerStyleTag " time="0.006" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:ajoutSupprimerTag should set ajoutSupprimerTag " time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:editionSupprimerTag should set editionSupprimerTag " time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:editHyphen()" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:checkStyleTag()" time="0.003" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:reglesStyleChange()" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:editionModifierTag()" time="0.009" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="ProfilesCtrl:editerStyleTag()" time="0.007" classname="Firefox 26.0.0 (Ubuntu).Controller:ProfilesCtrl"/>
+    <testcase name="TagCtrl:afficherTags should set afficherTags function" time="0.005" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:afficherTags should call /readTags on $scope.afficherTags()" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:afficherTags should listTags be tags" time="0.005" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:ajouterTag should set ajouterTag function" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:ajouterTag should call /addTag on $scope.ajouterTag()" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:ajouterTag should tag be $scope.tagAdded" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:supprimerTag should set supprimerTag function" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:supprimerTag should call /deleteTag on $scope.supprimerTag()" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:supprimerTag should tag be $scope.tagFlag" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:modifierTag should set modifierTag function" time="0.003" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:modifierTag should call /updateTag on $scope.modifierTag()" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <testcase name="TagCtrl:modifierTag should tag be $scope.tagFlag" time="0.004" classname="Firefox 26.0.0 (Ubuntu).Controller:TagCtrl"/>
+    <system-out><![CDATA[Firefox 26.0.0 (Ubuntu) LOG: LOG
+ [Object{titre: '', text: 'un exampe de texte', image: 'files/decoup.thumb_0.9390108054503798.png', _id: '52cb58487b0e99880d000004', tag: '52d0598c563380592bc1d704', __v: 0, children: []}],Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'sources ==> ',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ [Object{path: './files/image.png', extension: '.png'}, Object{path: './files/multipages.pdf', extension: '.pdf'}],Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'sources ==> ',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ Object{path: './files/image.png', extension: '.png'},Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'sources ==> ',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ Object{path: './files/multipages.pdf', extension: '.pdf'},Firefox 26.0.0 (Ubuntu) LOG: ALERT
+ 'Le fichier est chargé avec succès, Conversion des pages en cours ... ',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ Object{path: './files/image.png', extension: '.png'},Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'success N ==> 0',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ false,Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'sources ==> ',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ [Object{path: './files/image.png', extension: '.png'}, Object{path: './files/multipages.pdf', extension: '.pdf'}],Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'sources ==> ',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ Object{path: './files/image.png', extension: '.png'},Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'sources ==> ',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ Object{path: './files/multipages.pdf', extension: '.pdf'},Firefox 26.0.0 (Ubuntu) LOG: ALERT
+ 'Le fichier est chargé avec succès, Conversion des pages en cours ... ',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ '"52e24471be3a449a2988a0e9"',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'ok',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'show blocks clicked ... ',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'reglesStyleChange',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'editStyleChange',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'editStyleChange',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'editStyleChange',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'editStyleChange',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'editStyleChange',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'editStyleChange',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'editStyleChange',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'editStyleChange',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'editStyleChange',Firefox 26.0.0 (Ubuntu) LOG: LOG
+ 'editStyleChange'
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

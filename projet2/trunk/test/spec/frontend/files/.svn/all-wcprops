@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/cned/!svn/ver/285/trunk/test/spec/frontend/files
+END
+audio.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cned/!svn/ver/242/trunk/test/spec/frontend/files/audio.mp3
+END
+multipages.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cned/!svn/ver/285/trunk/test/spec/frontend/files/multipages.pdf
+END
+image.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cned/!svn/ver/242/trunk/test/spec/frontend/files/image.png
+END

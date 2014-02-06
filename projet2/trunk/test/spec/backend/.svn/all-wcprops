@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/cned/!svn/ver/347/trunk/test/spec/backend
+END
+images.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/cned/!svn/ver/347/trunk/test/spec/backend/images.js
+END
+docStructure.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cned/!svn/ver/334/trunk/test/spec/backend/docStructure.js
+END
+profilTag.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/cned/!svn/ver/339/trunk/test/spec/backend/profilTag.js
+END
+tag.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/cned/!svn/ver/334/trunk/test/spec/backend/tag.js
+END
+profils.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/cned/!svn/ver/339/trunk/test/spec/backend/profils.js
+END
+utils.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/cned/!svn/ver/334/trunk/test/spec/backend/utils.js
+END

@@ -1,0 +1,148 @@
+<!-- Header -->
+	<div ng:include="'/views/common/header.html'"></div>
+<!-- End Header -->
+
+<div class="row marketing">
+
+	<div class="upload-file">
+		<form enctype="multipart/form-data">
+			<label for="fileToUpload">Ajouter un document</label><br />
+	        <input type="file" ng-model-instant id="fileToUpload" multiple onchange="angular.element(this).scope().setFiles(this)"  />
+	        <input type="button" ng-click="uploadFile()" value="Ajouter" id='add-img' />	
+		</form>
+	</div>
+	<div class="bar-btns">
+		<ul>
+			<li>
+				<button ng-disabled='permitSaveblocks()' ng-click="saveblocks()" data-toggle="modal" data-target="#actions-workspace">Actions</button>
+			</li>
+			<li>
+				<button ng-click='sendCrop(currentImage.source)'>Découper</button>
+			</li>
+			<li>
+				<a href="#ocr-block" showtab="" class="active">Texte</a>
+				<ul id="ocr-block" class="sub-menus">
+					<li>
+						<button ng-click="modifierTexte()" >Editer</button>
+					</li>
+					<li>
+						<button ng-click="oceriser()">Oceriser</button>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#synthese-block" showtab="">Synthèse vocale</a>
+				<ul id="synthese-block" class="sub-menus">
+					<li>
+						<button ng-click="textToSpeech()" >Générer</button>
+					</li>
+					<li>
+						<button ng-click="playSong()" ng-show="showPlaySong()" ><i class="fa fa-volume-up" ></i></button>
+						<audio id="player" src="" preload="auto"></audio>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#tags-block" showtab="">Type de texte</a>
+				<ul id="tags-block" class="sub-menus">
+					<li class="type-text">
+						<select class="form-control input-sm" ng-model="tagSelected" ng-change="updateBlockType()">
+							<option ng-repeat="tag in listTags" value="{{tag._id}}" >{{tag.libelle}}</option>
+			        	</select>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div class="parent-container-images">
+		<div class="images-container">
+			<div class="zones" ng-repeat="zone in zones">
+				<div style="width:{{zone.w}}px;height:{{zone.h}}px;top:{{zone.y}}px;left:{{zone.x}}px;">
+					<button ng-click="removeZone(zone._id)"  class="label label-default">
+						<span class="glyphicon glyphicon-remove-circle"></span>
+					</button>
+				</div>
+			</div>
+			<img-cropped src='{{currentImage.source}}' selected='selected(cords)' class="img-crop" />
+
+			<div ng-show="showEditor" class="text-oceriser">	
+				<textarea ck-editor ng-model="textes.text" id="editorOcr" data-barre="OcrVersion"></textarea>
+				<button ng-click="getOcrText()" class="btn btn-default save-text">Enregistrer</button>
+			</div>
+		</div>
+
+	</div>
+<div class="tree-images" style="float:left;">
+			<h3>Structure Document</h3>
+	<!-- 		<div class="cropped_images" ng-repeat="image in blocks"> -->
+	<!-- 			<div class="element level-{{image.level}}"> -->
+	<!-- 				<div class="controles"> -->
+	<!-- 					<button ng-click="oceriser(image.source)" >T</button> -->
+	<!-- 				</div> -->
+	<!-- 				<img ng-src="{{image.source}}" ng-click="workspace(image)" style="max-width:200px;height:auto;">	 -->
+	<!-- 			</div> -->
+	<!-- 		</div> -->
+
+	    <div >
+	      <ol ui-nested-sortable="{
+	        listType: 'ol',
+	        items: 'li',
+	        doNotClear: true,
+	        placeholder: 'ui-state-highlight',
+	        forcePlaceholderSize: true,
+	        toleranceElement: '> div'
+	      }" ui-nested-sortable-stop="updateDragDrop($event, $ui)">
+	        <li ez-tree="child in blocks.children at ol" ng-class="{minimized:child.minimized}">
+	          <div>
+	            <button class="toggle" ng-click="toggleMinimized(child)" ng-switch on="child.minimized"><span ng-switch-when="true">&#x25B6;</span><span ng-switch-default>&#x25BC;</span></button>
+	            <img ng-src="{{child.source}}" ng-click="workspace(child)" width="100px"/>
+	            <div class="controles">
+					<!-- <input ng-model="child.titre" size="5px" /> -->
+	            	<button ng-click="remove(child)">x</button>
+				</div>
+	          </div>
+	          <ol ng-class="{pregnant:child.children.length}"></ol>
+	        </li>
+	      </ol>
+	    </div>
+	</div>
+
+
+	<div class="actions">
+	
+	</div>
+</div>
+
+<!-- debut modal Add -->
+<div class="modal fade" id="actions-workspace" tabindex="-1" role="dialog" aria-labelledby="tagAddLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Actions</h4>
+      </div>
+      <div class="modal-body">
+      	<form id="show_document" class="" role="form" style="overflow:hidden;">
+      		<div class="form-group col-sm-10">
+		        <label for="show_profil" class="col-sm-6">Selectionner le profil</label>
+		        <div class="col-sm-10 show_profil" >
+			        <select class="form-control input-sm " ng-model="profilSelected" id="show_profil">
+						<option ng-repeat="profil in listProfils" value="{{profil._id}}" >{{profil.nom}}</option>
+			        </select>
+		        </div>
+		        <div class="col-sm-10">
+		        	<button ng-click="showlocks()" data-dismiss="modal" class="col-sm-8 btn btn-primary">Previsualiser le document</button>
+		        </div>
+      		</div>
+      	</form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin modal Add -->
+
+<!-- Footer -->
+	<div ng:include="'/views/common/footer.html'"></div>
+<!-- End Footer -->
+<div class="loader" ng-show="loader"></div>

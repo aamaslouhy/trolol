@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/cned/!svn/ver/156/trunk/app/views/common
+END
+header.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/cned/!svn/ver/156/trunk/app/views/common/header.html
+END
+footer.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/cned/!svn/ver/71/trunk/app/views/common/footer.html
+END

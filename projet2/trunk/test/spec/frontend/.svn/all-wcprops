@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/cned/!svn/ver/346/trunk/test/spec/frontend
+END
+profiles.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/cned/!svn/ver/346/trunk/test/spec/frontend/profiles.js
+END
+main.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/cned/!svn/ver/240/trunk/test/spec/frontend/main.js
+END
+images.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/cned/!svn/ver/304/trunk/test/spec/frontend/images.js
+END
+common.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/cned/!svn/ver/320/trunk/test/spec/frontend/common.js
+END
+tag.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/cned/!svn/ver/334/trunk/test/spec/frontend/tag.js
+END
+apercu.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/cned/!svn/ver/334/trunk/test/spec/frontend/apercu.js
+END
